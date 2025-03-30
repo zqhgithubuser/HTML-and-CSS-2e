@@ -1,0 +1,19 @@
+@container style(--season: autumn) {
+  .card {
+    background: linear-gradient(
+      -30deg,
+      #ffff75,
+      #fa8415
+    );
+  }
+}
+
+@container style(--season: summer) {
+  .card {
+      background: linear-gradient(
+          140deg,
+          #95d8ff,
+          #6bffee
+      );
+  }
+}
