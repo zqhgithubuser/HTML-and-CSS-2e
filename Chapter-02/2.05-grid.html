@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+      :root {
+        --bg-color: #659494;
+        --text-color: #fff;
+        --size-large: 100px;
+        --size-small: 20px;
+      }
+
+      section {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+
+      div {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        text-align: center;
+        margin: var(--size-small);
+        padding: var(--size-large);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>product 1</div>
+      <div>product 2</div>
+      <div>product 3</div>
+      <div>product 4</div>
+      <div>product 5</div>
+      <div>product 6</div>
+      <div>product 7</div>
+      <div>product 8</div>
+    </section>
+  </body>
+</html>
